@@ -1,0 +1,9 @@
+Define the Printer Name and Driver – You need to specify the name of the printer and the driver that will be used.
+
+Check if the Printer Already Exists – Before installing, check if the printer is already installed.
+
+Install the Printer Port – If the printer is network-based, create a TCP/IP port for it.
+
+Install the Printer Driver – Ensure that the correct driver is available and installed.
+
+Add the Printer – Finally, add the printer with the specified settings.
