@@ -17,4 +17,6 @@ This project helps automate the installation of printers using PowerShell. It is
 - $printerIP
 - $printerDriver
 
-# Examples
+# Execution Instructions
+- Allow execution: Set-ExecutionPolicy -Scope Process -ExecutionPolicy ByPass
+- Run the script (as admin): .\InstallationPrinter.ps1
