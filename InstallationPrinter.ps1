@@ -1,5 +1,5 @@
 # Define the log file path
-$logFile = "PrinterLogFile.txt"  # Change this to your desired log file path
+$logFile = "PrinterLogFile.txt" 
 
 # Function to log messages
 function Log-Message {
@@ -31,7 +31,6 @@ if ($printerIP -eq "") {
             # Ping to check if the IP is reachable
             $ping = Test-Connection -ComputerName $ip -Count 1 -Quiet
             if ($ping) {
-                # Check if printer port (commonly 9100) is open
                 $tcpCheck = Test-NetConnection -ComputerName $ip -Port 9100
                 if ($tcpCheck.TcpTestSucceeded) {
                     $foundPrinter = $ip
@@ -53,7 +52,7 @@ if ($printerIP -eq "") {
     } else {
         Write-Host "Printer not found on the network."
         Log-Message "Printer not found on the network."
-        exit 1  # Exit the script if the printer cannot be found
+        exit 1
     }
 }
 
