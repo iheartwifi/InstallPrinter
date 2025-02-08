@@ -7,10 +7,10 @@ This project helps automate the installation of printers using PowerShell. It is
 -Tracks installation process for troubleshooting and auditing.
 
 # Prerequistes
--PowerShell
--Admin privilege
--Network access
--Visual Studio Code
+- PowerShell
+- Admin privilege
+- Network access
+- Visual Studio Code
 
 # Script Configurations
 -$printName
